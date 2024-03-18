@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+    <style></style>
+    <title>Data Creater</title>
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-10">
+            <div class="form-group">
+                <label for="selectBox">Sector</label>
+                <div class="input-group">
+                    <select class="custom-select" id="selectBox">
+                        <option selected>Choose Sector</option>
+                        <option value="1">Student</option>
+                        <option value="2">Employee</option>
+                    </select>
+
+                    <select class="custom-select ml-5" id="selectBox">
+                        <option selected>Choose Column</option>
+                        <option value="1">Student</option>
+                        <option value="2">Employee</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary mr-5" type="button">Add Column</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 d-none">
+            <div class="form-group">
+                <label for="textBox">Row Count:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="textBox" placeholder="Enter row count">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Generate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
